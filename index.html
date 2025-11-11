@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica Imagen</title>
+    <link rel="icon" type="image/png" href="img/logoImagen.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="img/logoImagen.png" alt="Logo Imagen" class="nav-logo">
+                <h1>OPTICA IMAGEN</h1>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="section active">
+        <div class="hero">
+            <div class="hero-content">
+               
+                <p class="hero-subtitle">Tu visión es nuestra prioridad</p>
+                <p class="hero-description">
+                    En Óptica Imagen ofrecemos las mejores soluciones para el cuidado de tus ojos. 
+                    Con mas de 30 años de experiencia y tecnología de vanguardia, te ayudamos a ver el mundo con claridad.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/573208835842" target="_blank" class="btn btn-whatsapp">
+                        Agenda tu cita
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/imagenHeader.png" alt="Óptica Imagen" class="header-image">
+            </div>
+        </div>
+        
+        <!-- Servicios en página principal -->
+        <div class="container" style="margin-top: 4rem;">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            
+            <div class="services-grid-new">
+                <div class="service-item">
+                    <div class="service-icon-new">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="40" r="12" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <circle cx="55" cy="40" r="12" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <line x1="37" y1="40" x2="43" y2="40" stroke="#40E0D0" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="15" y1="40" x2="5" y2="40" stroke="#40E0D0" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="65" y1="40" x2="75" y2="40" stroke="#40E0D0" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Gafas</h3>
+                    <p>Gran variedad de monturas y estilos</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon-new">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="40" rx="20" ry="25" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <circle cx="40" cy="40" r="12" stroke="#40E0D0" stroke-width="2" fill="none"/>
+                            <circle cx="40" cy="40" r="6" fill="#40E0D0"/>
+                        </svg>
+                    </div>
+                    <h3>Lentes de contacto</h3>
+                    <p>Lentes para diferentes necesidades</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon-new">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="40" rx="25" ry="18" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <circle cx="40" cy="40" r="12" stroke="#40E0D0" stroke-width="2" fill="none"/>
+                            <circle cx="40" cy="40" r="6" fill="#40E0D0"/>
+                            <line x1="40" y1="34" x2="40" y2="46" stroke="#40E0D0" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="34" y1="40" x2="46" y2="40" stroke="#40E0D0" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Examen visual</h3>
+                    <p>Exámenes completos y profesionales</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carrusel de imágenes -->
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide">
+                    <img src="img/Prats.png" alt="Prats">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/ServiOpticas.png" alt="ServiOpticas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <p class="section-subtitle">Conoce la historia y valores de Óptica Imagen</p>
+            
+            <div class="about-content">
+                <div class="about-intro">
+                    <div class="about-text">
+                        <h3>Nuestra Historia</h3>
+                        <p>
+                            Óptica Imagen nació con la visión de proporcionar el mejor cuidado visual a nuestros clientes. 
+                            Desde nuestros inicios, nos hemos comprometido a ofrecer productos de alta calidad y servicios 
+                            profesionales que mejoren la vida de las personas a través de una visión clara y saludable.
+                        </p>
+                        <p>
+                            Con años de experiencia en el sector, hemos construido una reputación basada en la confianza, 
+                            la excelencia y el compromiso con cada uno de nuestros clientes. Nuestro equipo de profesionales 
+                            altamente capacitados está siempre dispuesto a ayudarte a encontrar la mejor solución para tus necesidades visuales.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-icon">👁️</div>
+                    </div>
+                </div>
+
+                <div class="values-section">
+                    <h3 class="values-title">Nuestros Valores</h3>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">🎯</div>
+                            <h4>Excelencia</h4>
+                            <p>Nos esforzamos por ofrecer el más alto nivel de calidad en todos nuestros productos y servicios.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">❤️</div>
+                            <h4>Compromiso</h4>
+                            <p>Estamos comprometidos con el bienestar y la satisfacción de cada uno de nuestros clientes.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">🔬</div>
+                            <h4>Innovación</h4>
+                            <p>Utilizamos tecnología de vanguardia para ofrecerte las mejores soluciones visuales.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">🤝</div>
+                            <h4>Confianza</h4>
+                            <p>Construimos relaciones duraderas basadas en la honestidad y la transparencia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mission-vision">
+                    <div class="mission-card">
+                        <h3>Nuestra Misión</h3>
+                        <p>
+                            Proporcionar soluciones visuales de excelencia que mejoren la calidad de vida de nuestros clientes, 
+                            ofreciendo productos de alta calidad, servicios profesionales personalizados y un trato cercano 
+                            que genere confianza y satisfacción.
+                        </p>
+                    </div>
+                    
+                    <div class="vision-card">
+                        <h3>Nuestra Visión</h3>
+                        <p>
+                            Ser la óptica de referencia en nuestra comunidad, reconocida por nuestra excelencia en el servicio, 
+                            la innovación en tecnología visual y el compromiso constante con el cuidado de la salud ocular 
+                            de nuestros clientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Descubre nuestra amplia gama de productos para el cuidado de tu visión</p>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">👓</div>
+                    <h3>Gafas Graduadas</h3>
+                    <p>Gafas personalizadas con la mejor calidad y diseño para corregir tu visión.</p>
+                    <ul class="product-features">
+                        <li>Lentes de alta calidad</li>
+                        <li>Monturas modernas</li>
+                        <li>Protección UV</li>
+                    </ul>
+                    <button class="btn-ver-mas">Ver más</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">🕶️</div>
+                    <h3>Gafas de Sol</h3>
+                    <p>Protege tus ojos de los rayos UV con nuestras elegantes gafas de sol.</p>
+                    <ul class="product-features">
+                        <li>100% protección UV</li>
+                        <li>Diseños exclusivos</li>
+                        <li>Lentes polarizadas</li>
+                    </ul>
+                    <button class="btn-ver-mas">Ver más</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">🔍</div>
+                    <h3>Lentes de Contacto</h3>
+                    <p>Lentes de contacto cómodas y seguras para una visión clara sin gafas.</p>
+                    <ul class="product-features">
+                        <li>Máxima comodidad</li>
+                        <li>Diferentes tipos</li>
+                        <li>Fácil mantenimiento</li>
+                    </ul>
+                    <button class="btn-ver-mas">Ver más</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">🧪</div>
+                    <h3>Soluciones y Accesorios</h3>
+                    <p>Todo lo que necesitas para el cuidado y mantenimiento de tus lentes.</p>
+                    <ul class="product-features">
+                        <li>Líquidos limpiadores</li>
+                        <li>Estuches protectores</li>
+                        <li>Paños de microfibra</li>
+                    </ul>
+                    <button class="btn-ver-mas">Ver más</button>
+                </div>
+            </div>
+            
+            <!-- Botón Agenda tu cita -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://wa.me/573208835842" target="_blank" class="btn btn-whatsapp">
+                    Agenda tu cita
+                </a>
+            </div>
+        </div>
+        
+        <!-- Carrusel de imágenes -->
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrackProductos">
+                <div class="carousel-slide">
+                    <img src="img/Prats.png" alt="Prats">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/ServiOpticas.png" alt="ServiOpticas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            
+            <div class="services-grid-new">
+                <div class="service-item">
+                    <div class="service-icon-new">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="40" r="12" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <circle cx="55" cy="40" r="12" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <line x1="37" y1="40" x2="43" y2="40" stroke="#40E0D0" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="15" y1="40" x2="5" y2="40" stroke="#40E0D0" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="65" y1="40" x2="75" y2="40" stroke="#40E0D0" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Gafas</h3>
+                    <p>Gran variedad de monturas y estilos</p>
+                    <button class="btn-saber-mas" id="btnGafas">Saber más</button>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon-new">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="40" rx="20" ry="25" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <circle cx="40" cy="40" r="12" stroke="#40E0D0" stroke-width="2" fill="none"/>
+                            <circle cx="40" cy="40" r="6" fill="#40E0D0"/>
+                        </svg>
+                    </div>
+                    <h3>Lentes de contacto</h3>
+                    <p>Lentes para diferentes necesidades</p>
+                    <button class="btn-saber-mas" id="btnLentesContacto">Saber más</button>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon-new">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="40" rx="25" ry="18" stroke="#40E0D0" stroke-width="3" fill="none"/>
+                            <circle cx="40" cy="40" r="12" stroke="#40E0D0" stroke-width="2" fill="none"/>
+                            <circle cx="40" cy="40" r="6" fill="#40E0D0"/>
+                            <line x1="40" y1="34" x2="40" y2="46" stroke="#40E0D0" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="34" y1="40" x2="46" y2="40" stroke="#40E0D0" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Examen visual</h3>
+                    <p>Exámenes completos y profesionales</p>
+                    <button class="btn-saber-mas" id="btnExamenesVista">Saber más</button>
+                </div>
+            </div>
+            
+            <!-- Botón Agenda tu cita -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://wa.me/573208835842" target="_blank" class="btn btn-whatsapp">
+                    Agenda tu cita
+                </a>
+            </div>
+        </div>
+        
+        <!-- Carrusel de imágenes -->
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrackServicios">
+                <div class="carousel-slide">
+                    <img src="img/Prats.png" alt="Prats">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/ServiOpticas.png" alt="ServiOpticas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Estamos aquí para ayudarte. Ponte en contacto con nosotros</p>
+            
+            <div class="contact-wrapper">
+                <!-- Columna izquierda: Dirección y Mapa -->
+                <div class="contact-left">
+                    <div class="info-card address-card">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>CALLE 21 # 100-56<br>Fontibon, Bogotá DC</p>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8888!2d-74.1419877!3d4.6766862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c8ddc715d07%3A0x86bbe0bbf8a532ce!2sCalle%2021%20%23100-56%2C%20Fontibon%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1734567890123!5m2!1ses!2sco" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <!-- Columna derecha: Información de contacto -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+57 320 8835842</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@imagenoptica.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <div>
+                            <h3>Horario</h3>
+                            <p>Lunes - Viernes: 9:30 - 17:00<br>Sábados: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Óptica Imagen.  </p>
+        </div>
+    </footer>
+
+    <!-- Créditos del desarrollador -->
+    <div class="developer-credit">
+        <p>Desarrollador Full-Stack: Mauricio Salamanca</p>
+    </div>
+
+    <!-- Modal para Exámenes de la vista -->
+    <div id="modalExamenes" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <h2>Exámenes de la Vista</h2>
+            <p>En Óptica Imagen nuestro servicio de optometría es ofrecido por profesionales idóneos en salud visual con más de 30 años de experiencia, quienes a través de un examen dan un resultado conocido comúnmente como resultado refractivo, donde se permite identificar de manera exacta si el paciente padece de alguna alteración visual y que tratamiento requiere.</p>
+        </div>
+    </div>
+
+    <!-- Modal para Lentes de contacto -->
+    <div id="modalLentesContacto" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModalLentes">&times;</span>
+            <h2>Lentes de Contacto</h2>
+            <p>En Óptica Imagen entendemos que buscas lo mejor para tus ojos. Por eso, ofrecemos exclusivamente lentes de contacto de la más alta calidad, diseñados con la tecnología más avanzada para brindarte una experiencia visual inigualable.</p>
+        </div>
+    </div>
+
+    <!-- Modal para Gafas -->
+    <div id="modalGafas" class="modal">
+        <div class="modal-content modal-content-large">
+            <span class="modal-close" id="closeModalGafas">&times;</span>
+            <h2>Gafas</h2>
+            <p>En Óptica Imagen creemos que tus gafas deben ser una extensión perfecta de tu personalidad y estilo de vida. Por eso, ofrecemos gafas de la más alta calidad, donde cada componente desde la montura hasta los cristales está diseñado con precisión de relojería para ofrecerte una experiencia visual inigualable.</p>
+            
+            <h3>TECNOLOGÍA LENTES DE VANGUARDIA</h3>
+            <p>Nuestros cristales premium incorporan los tratamientos más avanzados del mercado:</p>
+            <ul class="modal-list">
+                <li><strong>Anti-Reflejante de Última Generación:</strong> Elimina los reflejos molestos, mejorando el contraste y la transparencia visual. Sus ojos se verán con total naturalidad.</li>
+                <li><strong>Filtro de Luz Azul Protección Total:</strong> Protege sus ojos de la luz azul nociva emitida por pantallas digitales, reduciendo la fatiga visual y mejorando la calidad del sueño.</li>
+            </ul>
+
+            <h3>MATERIALES EXCLUSIVOS Y CONFORT EXCEPCIONAL</h3>
+            <ul class="modal-list">
+                <li><strong>Monturas Ultraligeras:</strong> Olvídate de la sensación de peso, incluso en graduaciones altas.</li>
+                <li><strong>Ajuste Perfecto:</strong> Sistema de ajuste micrométrico en patillas que garantiza una adaptación personalizada y un confort que perdura todo el día.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Panel de Accesibilidad -->
+    <div class="accessibility-panel" id="accessibilityPanel">
+        <button class="accessibility-toggle" id="accessibilityToggle" aria-label="Panel de accesibilidad">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" fill="currentColor"/>
+            </svg>
+        </button>
+        <div class="accessibility-menu" id="accessibilityMenu">
+            <h3>Accesibilidad</h3>
+            <div class="accessibility-buttons">
+                <button class="accessibility-btn" id="increaseFont" aria-label="Aumentar tamaño de texto">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 4V8H9V10H5V14H9V16H5V20H3V4H5ZM21 12V20H19V14H13V12H19V6H21V12Z" fill="currentColor"/>
+                    </svg>
+                    <span>A+</span>
+                </button>
+                <button class="accessibility-btn" id="decreaseFont" aria-label="Disminuir tamaño de texto">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 4V8H9V10H5V14H9V16H5V20H3V4H5ZM19 6V20H17V6H19Z" fill="currentColor"/>
+                    </svg>
+                    <span>A-</span>
+                </button>
+                <button class="accessibility-btn" id="highContrast" aria-label="Alto contraste">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="currentColor"/>
+                    </svg>
+                    <span>Contraste</span>
+                </button>
+                <button class="accessibility-btn" id="resetAccessibility" aria-label="Restablecer configuración">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V1L8 5L12 9V6C15.31 6 18 8.69 18 12C18 15.31 15.31 18 12 18C8.69 18 6 15.31 6 12H4C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4Z" fill="currentColor"/>
+                    </svg>
+                    <span>Reset</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
