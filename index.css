@@ -110,6 +110,43 @@ body {
     transition: all 0.3s ease;
 }
 
+/* Language Buttons */
+.language-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: 4px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-btn:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.lang-btn:active {
+    transform: scale(0.95);
+}
+
+.flag-icon {
+    width: 32px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* Secciones */
 .section {
     display: none;
@@ -1044,6 +1081,16 @@ body.high-contrast .developer-credit p {
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
+    }
+
+    .language-buttons {
+        margin-left: 0.5rem;
+        gap: 0.25rem;
+    }
+
+    .flag-icon {
+        width: 28px;
+        height: 21px;
     }
 
     .nav-menu {

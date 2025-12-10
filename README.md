@@ -199,5 +199,5 @@ Este proyecto es propiedad de Óptica Imagen. Todos los derechos reservados.
 
 **© 2025 Óptica Imagen**
 
-Desarrollado con ❤️ por Mauricio Salamanca
+Desarrollado con  por Mauricio Salamanca
 
