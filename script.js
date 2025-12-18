@@ -318,21 +318,21 @@ document.addEventListener('DOMContentLoaded', function() {
             sectionSobreNosotros: 'Sobre Nosotros',
             sectionSubtitleNosotros: 'Conoce la historia y valores de Óptica Imagen',
             nuestraHistoria: 'Nuestra Historia',
-            historiaTexto1: 'Óptica Imagen nació con la visión de proporcionar el mejor cuidado visual a nuestros clientes. Desde nuestros inicios, nos hemos comprometido a ofrecer productos de alta calidad y servicios profesionales que mejoren la vida de las personas a través de una visión clara y saludable.',
-            historiaTexto2: 'Con años de experiencia en el sector, hemos construido una reputación basada en la confianza, la excelencia y el compromiso con cada uno de nuestros clientes. Nuestro equipo de profesionales altamente capacitados está siempre dispuesto a ayudarte a encontrar la mejor solución para tus necesidades visuales.',
+            historiaTexto1: 'Óptica Imagen nació con la visión de proporcionar el mejor cuidado visual a nuestros pacientes. Desde nuestros inicios, nos hemos comprometido a ofrecer productos de alta calidad y servicios profesionales que mejoren la vida de las personas a través de una visión clara y saludable.',
+            historiaTexto2: 'Con años de experiencia en el sector, hemos construido una reputación basada en la confianza, la excelencia y el compromiso con cada uno de nuestros pacientes. Nuestro equipo de profesionales altamente capacitados está siempre dispuesto a ayudarte a encontrar la mejor solución para tus necesidades visuales.',
             nuestrosValores: 'Nuestros Valores',
             valorExcelencia: 'Excelencia',
             valorExcelenciaDesc: 'Nos esforzamos por ofrecer el más alto nivel de calidad en todos nuestros productos y servicios.',
             valorCompromiso: 'Compromiso',
-            valorCompromisoDesc: 'Estamos comprometidos con el bienestar y la satisfacción de cada uno de nuestros clientes.',
+            valorCompromisoDesc: 'Estamos comprometidos con el bienestar y la satisfacción de cada uno de nuestros pacientes.',
             valorInnovacion: 'Innovación',
             valorInnovacionDesc: 'Utilizamos tecnología de vanguardia para ofrecerte las mejores soluciones visuales.',
             valorConfianza: 'Confianza',
             valorConfianzaDesc: 'Construimos relaciones duraderas basadas en la honestidad y la transparencia.',
             nuestraMision: 'Nuestra Misión',
-            misionTexto: 'Proporcionar soluciones visuales de excelencia que mejoren la calidad de vida de nuestros clientes, ofreciendo productos de alta calidad, servicios profesionales personalizados y un trato cercano que genere confianza y satisfacción.',
+            misionTexto: 'Proporcionar soluciones visuales de excelencia que mejoren la calidad de vida de nuestros pacientes, ofreciendo productos de alta calidad, servicios profesionales personalizados y un trato cercano que genere confianza y satisfacción.',
             nuestraVision: 'Nuestra Visión',
-            visionTexto: 'Ser la óptica de referencia en nuestra comunidad, reconocida por nuestra excelencia en el servicio, la innovación en tecnología visual y el compromiso constante con el cuidado de la salud ocular de nuestros clientes.',
+            visionTexto: 'Ser la óptica de referencia en nuestra comunidad, reconocida por nuestra excelencia en el servicio, la innovación en tecnología visual y el compromiso constante con el cuidado de la salud ocular de nuestros pacientes.',
             
             // Productos
             sectionNuestrosProductos: 'Nuestros Productos',
@@ -364,10 +364,11 @@ document.addEventListener('DOMContentLoaded', function() {
             sectionSubtitleContacto: 'Estamos aquí para ayudarte. Ponte en contacto con nosotros',
             contactoDireccion: 'Dirección',
             contactoTelefono: 'Teléfono',
+            contactoTelefonoFijo: 'Teléfono Fijo',
             contactoEmail: 'Email',
             contactoHorario: 'Horario',
-            horarioSemana: 'Lunes - Viernes: 9:30 - 17:00',
-            horarioSabado: 'Sábados: 10:00 - 14:00',
+            horarioSemana: 'Lunes - Viernes: 10:00 - 17:00',
+            horarioSabado: 'Sábados: 10:00 - 16:00',
             
             // Footer
             footerCopyright: '© 2025 Óptica Imagen.',
@@ -425,21 +426,21 @@ document.addEventListener('DOMContentLoaded', function() {
             sectionSobreNosotros: 'About Us',
             sectionSubtitleNosotros: 'Learn about the history and values of Óptica Imagen',
             nuestraHistoria: 'Our History',
-            historiaTexto1: 'Óptica Imagen was born with the vision of providing the best visual care to our clients. Since our beginnings, we have been committed to offering high-quality products and professional services that improve people\'s lives through clear and healthy vision.',
-            historiaTexto2: 'With years of experience in the sector, we have built a reputation based on trust, excellence, and commitment to each of our clients. Our team of highly qualified professionals is always ready to help you find the best solution for your visual needs.',
+            historiaTexto1: 'Óptica Imagen was born with the vision of providing the best visual care to our patients. Since our beginnings, we have been committed to offering high-quality products and professional services that improve people\'s lives through clear and healthy vision.',
+            historiaTexto2: 'With years of experience in the sector, we have built a reputation based on trust, excellence, and commitment to each of our patients. Our team of highly qualified professionals is always ready to help you find the best solution for your visual needs.',
             nuestrosValores: 'Our Values',
             valorExcelencia: 'Excellence',
             valorExcelenciaDesc: 'We strive to offer the highest level of quality in all our products and services.',
             valorCompromiso: 'Commitment',
-            valorCompromisoDesc: 'We are committed to the well-being and satisfaction of each of our clients.',
+            valorCompromisoDesc: 'We are committed to the well-being and satisfaction of each of our patients.',
             valorInnovacion: 'Innovation',
             valorInnovacionDesc: 'We use cutting-edge technology to offer you the best visual solutions.',
             valorConfianza: 'Trust',
             valorConfianzaDesc: 'We build lasting relationships based on honesty and transparency.',
             nuestraMision: 'Our Mission',
-            misionTexto: 'To provide excellence visual solutions that improve the quality of life of our clients, offering high-quality products, personalized professional services, and close treatment that generates trust and satisfaction.',
+            misionTexto: 'To provide excellence visual solutions that improve the quality of life of our patients, offering high-quality products, personalized professional services, and close treatment that generates trust and satisfaction.',
             nuestraVision: 'Our Vision',
-            visionTexto: 'To be the reference optometry in our community, recognized for our excellence in service, innovation in visual technology, and constant commitment to the eye health care of our clients.',
+            visionTexto: 'To be the reference optometry in our community, recognized for our excellence in service, innovation in visual technology, and constant commitment to the eye health care of our patients.',
             
             // Products
             sectionNuestrosProductos: 'Our Products',
@@ -471,10 +472,11 @@ document.addEventListener('DOMContentLoaded', function() {
             sectionSubtitleContacto: 'We are here to help you. Get in touch with us',
             contactoDireccion: 'Address',
             contactoTelefono: 'Phone',
+            contactoTelefonoFijo: 'Landline Phone',
             contactoEmail: 'Email',
             contactoHorario: 'Schedule',
-            horarioSemana: 'Monday - Friday: 9:30 - 17:00',
-            horarioSabado: 'Saturdays: 10:00 - 14:00',
+            horarioSemana: 'Monday - Friday: 10:00 - 17:00',
+            horarioSabado: 'Saturdays: 10:00 - 16:00',
             
             // Footer
             footerCopyright: '© 2025 Óptica Imagen.',
@@ -707,8 +709,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const infoCards = document.querySelectorAll('.info-card h3');
         if (infoCards[0]) infoCards[0].textContent = t.contactoDireccion;
         if (infoCards[1]) infoCards[1].textContent = t.contactoTelefono;
-        if (infoCards[2]) infoCards[2].textContent = t.contactoEmail;
-        if (infoCards[3]) infoCards[3].textContent = t.contactoHorario;
+        if (infoCards[2]) infoCards[2].textContent = t.contactoTelefonoFijo;
+        if (infoCards[3]) infoCards[3].textContent = t.contactoEmail;
+        if (infoCards[4]) infoCards[4].textContent = t.contactoHorario;
 
         const horarioText = document.querySelector('#contacto .info-card:last-child p');
         if (horarioText) {
